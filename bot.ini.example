@@ -1,0 +1,16 @@
+[tg_bot]
+token = 
+admin_ids = 
+
+[db]
+driver = postgresql+asyncpg
+user = 
+password = 
+host = 127.0.0.1
+port = 5432
+db_name = 
+
+[settings]
+sqlalchemy_echo = False
+sqlalchemy_expire_on_commit = False
+default_parse_mode = HTML
